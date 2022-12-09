@@ -1,0 +1,266 @@
+.navbar-brand {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 90px;
+    top: 1px;
+
+    font-family: 'Love Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 179px;
+
+    color: rgba(146, 96, 177, 0.99);
+
+    text-shadow: 0px 8px 8px rgba(149, 11, 184, 0.25);
+
+}
+
+.nav-item {
+    margin-top: 170px;
+    font-family: 'Modern Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #04AE15 !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #04AE15 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-section h5 {
+    margin-top: 40px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    
+    color: #000000;
+
+}
+
+.hero-section p {
+    font-family: 'Mate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+
+    color: #000000;
+
+}
+/* Akhir Hero Section */
+.section-title {
+    border-bottom: 3px solid rgba(146, 96, 177, 0.99);;
+    width: 8%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Popular Products */
+.popular-products {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    background: rgba(23, 25, 56, 0.06);
+}
+
+.menu-type {
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.component-products {
+    margin-top: 28px;
+    margin-bottom: 36px;
+    background-color: rgba(2, 130, 15, 0.38);;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.products-img {
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: rgba(241, 247, 241,);
+    transition: all 0.3s ease;
+}
+
+.products-text {
+    font-family: 'Modern Antiqua';
+font-style: normal;
+font-size: 20px;
+text-align: center;
+color: #1d0329;
+
+}
+
+.products-price {
+    font-family: 'Modern Antiqua';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #02700D;
+}
+/* Tutup Popular Products */
+
+
+/* Story */
+
+.btn-cta img {
+    width: 25px;
+    height: 20px;
+    margin-left: 0px;
+}
+
+.btn {
+    font-family: 'Mina';
+    font-size: 10px;
+    font-style: normal;
+    color: #02700d;
+}
+.tag {
+    z-index: 1;
+    background-color: #ffffff8f;
+    padding: 0.005rem 0.55rem;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 20px;
+    max-height: 45px;
+}
+
+.component-categories {
+    margin-bottom: 32px;
+}
+
+.tag span {
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #02700D;
+}
+
+.categories-thumbnail {
+    width: 100%;
+    height: 462px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail-small {
+    width: 100%;
+    height: 215px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+/* Tutup Story */
+
+/* Footer */
+.footer {
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-color: rgba(2, 130, 15, 0.233);
+}
+
+.footer h2 {
+    font-family: 'Love Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+
+    color: rgba(146, 96, 177, 0.99);
+
+    text-shadow: 0px 8px 8px rgba(149, 11, 184, 0.25);
+
+    }
+
+.footer h5 {
+    font-family: 'Modern Antiqua';
+    font-weight: 500;
+    font-size: 18px;
+
+    color:#4B0675;
+}
+
+.footer p {
+    font-family: 'Modern Antiqua';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+
+    color: #686877
+}
+
+.footer-small {
+    background-color: rgba(96, 10, 149, 0.671);
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Modern Antiqua';
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 30px;
+
+    color: #ffffff;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B0675;
+    text-decoration: none;
+}
+/* Tutup Footer */
